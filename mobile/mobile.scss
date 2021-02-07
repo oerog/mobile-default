@@ -2,11 +2,7 @@
     $post_border_color: #555;
     $embedded_post_border_color: #888;
 } 
-@if $reminder_message == "false" {
-  .banner-container {
-    display: none !important;
-  }
-}
+
 #banner-message {
     display:none;
 }
